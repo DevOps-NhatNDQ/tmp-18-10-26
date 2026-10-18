@@ -110,7 +110,7 @@ jobs:
             echo "Logging into Docker Hub..."
             echo "$DOCKER_PAT" | docker login -u "$DOCKER_USER" --password-stdin
 
-            cd ~/app
+            cd /opt/nhatnfq/test-18-10-26
 
             echo "Generating .env file..."
             cat << EOF > .env
