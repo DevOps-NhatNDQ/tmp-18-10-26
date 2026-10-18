@@ -132,3 +132,4 @@ jobs:
             docker compose up -d --remove-orphans
 
             echo "Deployment completed successfully."
+
